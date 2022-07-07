@@ -3,22 +3,48 @@ body{
     margin: 0;
 }
 
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 120px;
+}
+p{
+    color: rgb(97, 94, 94);
+    text-align: justify;
 }
 
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .nameHighlight{
     color:lightsalmon ;
 }
-
-.firstPara{
-    text-align: justify;
+.section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
+.experience-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 40%;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.left-div-border{
+    border-left: 5px solid lightsalmon
+}
+.right-div-border{
+    border-left: 7px solid lightskyblue;
+}
+
+
 
 .half-width{
     width: 50%;
@@ -43,10 +69,6 @@ h1{
     
 }
 
-.secondPara{
-    text-align: justify;
-    width: 90%;
-}
 a:hover {
     background-image: linear-gradient(rgb(247, 22, 247), rgb(16, 221, 235));
     color: black;
@@ -56,3 +78,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: right
   }
+footer p{
+    text-align: center;
+}
